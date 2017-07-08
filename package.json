@@ -1,0 +1,22 @@
+{
+  "name": "gemini-exmaple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "gemini": "^5.0.0-alpha.3",
+    "html-reporter": "^0.2.0",
+    "http-server": "^0.10.0",
+    "selenium-standalone": "^6.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "http-server -p 3002",
+    "update": "gemini update",
+    "selenium": "selenium-standalone start",
+    "test": "gemini test"
+  },
+  "author": "",
+  "license": "ISC"
+}
