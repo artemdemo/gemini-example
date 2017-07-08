@@ -15,7 +15,8 @@
     "start": "http-server -p 3002",
     "update": "gemini update",
     "selenium": "selenium-standalone start",
-    "test": "gemini test"
+    "test": "gemini test",
+    "postinstall": "selenium-standalone install"
   },
   "author": "",
   "license": "ISC"

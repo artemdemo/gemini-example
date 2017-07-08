@@ -12,16 +12,10 @@ Install all packages:
 $ npm i
 ```
 
-Install last chrome drive
-
-```
-$ node_modules/selenium-standalone/bin/selenium-standalone install
-```
-
 Drive should be executable (version can be different)
 
 ```
-$ sudo chmod +x node_modules/selenium-standalone/bin/selenium-standalone/2.30-x64-chromedriver
+$ sudo chmod +x node_modules/selenium-standalone/.selenium/chromedriver/2.30-x64-chromedriver
 ```
 
 Update all screenshots
