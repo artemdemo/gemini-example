@@ -26,23 +26,27 @@ $ gemini update
 
 ## Run tests
 
+Start selenium
+
 ```
-$ npm t
+$ npm run selenium
 ```
 
-Detailed reports of failed tests you will find in `gemini-reports` folder.
-
-## Small http-server
-
-In order to make the process more visual, you can use installed `http-server`.
-
-Just run 
+Start server
 
 ```
 $ npm start
 ```
 
-Then you can use following urls:
+And run tests
+
+```
+$ npm t
+```
+
+## Small http-server
+
+Server is using following urls:
 
 * http://localhost:3002/ - main index.html
 * http://localhost:3002/gemini-reports/ - reports of failed tests
